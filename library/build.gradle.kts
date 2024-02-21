@@ -1,19 +1,19 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id ("maven-publish")
 }
 
 android {
     namespace = "com.lh.super_resolutionimage_core"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.lh.super_resolutionimage_core"
-        minSdk = 21
-        targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+//        applicationId = "com.lh.super_resolutionimage_core"
+        minSdk = 28
+        targetSdk = 34
+//        versionCode = 1
+//        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

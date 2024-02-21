@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.liuhao.super_resolution_core"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.liuhao.super_resolution_core"
-        minSdk = 21
-        targetSdk = 33
+        minSdk = 28
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
